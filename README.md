@@ -38,10 +38,10 @@ irm https://raw.githubusercontent.com/potemkin-storage/pct/main/build.ps1 | iex
 ## быстрый старт
 
 ```bash
-pct pull hello_world       # скачать пакет
-pct update hello_world     # обновить один пакет
+pct pull helloworld       # скачать пакет
+pct update helloworld     # обновить один пакет
 pct update                 # обновить всё, что установлено
-pct remove hello_world     # снести пакет
+pct remove helloworld     # снести пакет
 ```
 
 ---
@@ -82,7 +82,7 @@ pct remove hello_world     # снести пакет
 В корне каждой репы с пакетом лежит файл `<packet>.pcmetadata`:
 
 ```
-name=hello_world
+name=helloworld
 version=1.1
 author=me
 type=file
@@ -119,7 +119,7 @@ install_cmd_wn=g++ main.cpp -o calc.exe
 
 ```
 [packets]
-hello_world=1.1
+helloworld=1.1
 calculator=1.1
 #комментарий
 
