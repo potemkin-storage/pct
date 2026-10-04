@@ -82,12 +82,12 @@ namespace fs {
 #endif
     }
 
-    // windows folks live on C:, we live on /
+    // windows folks live on C:, on linux we drop things in home
     std::string root_dir() {
 #ifdef _WIN32
         return "C:\\";
 #else
-        return "/";
+        return home_dir();
 #endif
     }
 
