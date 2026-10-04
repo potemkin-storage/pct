@@ -11,7 +11,7 @@
 #include <iostream>
 #include <string>
 
-static const char* PCT_VERSION = "0.1.0";
+static const char* PCT_VERSION = "0.1.3";
 
 static void print_help() {
     std::cout
